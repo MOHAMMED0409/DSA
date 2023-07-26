@@ -19,6 +19,7 @@ int linear_search(struct Array *arr,int key){
     return -1;
 }
 
+
 int main(){
     struct Array arr = {{2,3,4,5,6},10,5};
     printf("%d\n",linear_search(&arr,6));
