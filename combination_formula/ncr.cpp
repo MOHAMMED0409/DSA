@@ -22,5 +22,5 @@ int rec_ncr(int n,int r){
 
 int main(){
     // printf("%d",ncr(5,1));
-    printf("%d",rec_ncr(10,2));
+    printf("%d",rec_ncr(5,3));
 }
